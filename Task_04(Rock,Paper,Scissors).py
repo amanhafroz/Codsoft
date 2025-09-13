@@ -1,10 +1,5 @@
 import random
-''' 
--1 for rock
-0 for paper
-1 for scissors
 
-'''
 computer = random.choice([-1,0,1])
 youstr = input("Enter your choice ( r for Rock, p for paper, s for scissors): ")
 youDict = {"r":-1, "p":0, "s":1}
@@ -37,5 +32,6 @@ else:
 
         elif(computer == 1 and you ==0 ):
             print("You lose")
+
 
 print("Do you want to play one more round")
